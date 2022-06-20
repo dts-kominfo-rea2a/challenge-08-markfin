@@ -1,0 +1,31 @@
+body {
+  background-color: magenta;
+}
+
+#app {
+  background-color: white;
+  width: 35rem;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px;
+}
+#app div {
+  display: flex;
+}
+#todo-title,
+#todo-subtitle {
+  text-align: center;
+}
+
+#todo-input,
+#todo-submit {
+  display: flex;
+  margin: auto;
+  margin-top: 0.5em;
+}
+
+#todo-input {
+  display: inline;
+  width: 20rem;
+}
